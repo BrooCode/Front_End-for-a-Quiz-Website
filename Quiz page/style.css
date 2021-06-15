@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+  }
+  /* head */
+  h1{
+    text-align: center;
+    font-weight: 300;
+    margin: 0px;
+    padding: 10px;
+    font-size: 30px;
+    background-image: linear-gradient(to right,rgb(238, 237, 226), rgba(0, 81, 255, 0.993) ,rgb(0, 81, 255), rgb(238, 238, 226));
+      
+    color: black;
+  }
+  .time{
+      background-color: white;
+    text-align: left;
+    height: auto;
+    padding: 8px;
+    padding-left: 110px;
+    border-bottom: 1px solid black;
+  }
+ 
+ 
+  
+      /*buttons*/
+    #submit{
+        background-color: green;
+    }
+    .button{
+        position: relative;
+        margin-bottom: 5px;
+        text-align: center;
+        padding: 10px;
+        margin-top: -100px;
+        clear: both;
+    }
+    button{
+        font-family: 'Work Sans', sans-serif;
+        font-size: 22px;
+        background-color: #279;
+        color: #fff;
+        width: 250px;
+        border: 0px;
+        border-radius: 3px;
+        padding: 20px;
+        cursor: pointer;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        
+    }
+    button:hover{
+        background-color: #38a;
+    }
+    /*.Question-no-box */
+    .Question-no-box {
+        background-color: whitesmoke;
+        position: relative;
+        height: 415px;
+        border: 1px solid black;
+        border-radius: 1px;
+        overflow-y: scroll;
+        min-height: 100%;
+        padding-left: 2.5px;
+      }
+      A{
+          text-decoration: none;
+      }
+      
+    button.q-no{
+          background-color: rgb(197, 191, 191);
+          font-size: 20px;
+          cursor: pointer;
+          border-radius: 15px;
+          text-align: justify;
+          color: black;
+          margin-bottom:4px ;
+          margin-left: 2px;
+          width: auto;
+          box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      button.q-no:hover{
+        background-color: rgba(255, 0, 0, 0.836);
+    }
+    
+      div.Question-space{
+          font-size: 20px;
+          overflow-y: scroll;
+          width: 70%;
+          min-height: 100%;
+          height: 415px;
+          float: left;
+          word-spacing: 2px;
+          border: 1px  white;
+          padding-left: 20px;
+          padding-right: 10px;
+          line-height: 40px;
+          border-bottom: 1px solid black;
+          background-image: url(srm1.png);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 315px;
+      }
+     
+     
+      
+      .Question-no-box {
+        width: 30%;
+        float: left;
+        border: 1px solid white;
+        border-radius: 3px;
+      }
+      .profile{
+          text-align: justify;
+          display: flex;
+          flex-direction: column;
+          padding-top: 5px;
+          margin-left: 5px;
+          padding-left: 110px;
+          background-image: url(avatar.png) ;
+          background-repeat: no-repeat;
+          background-position: left;
+          background-size: 100px;
+      }
+      input[type=radio] {
+        transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        }
+        
+        
+      @media only screen and (max-width: 600px) {
+        div.Question-no-box{
+          display: none;
+        }
+        h1{
+          background-image: linear-gradient( rgb(0, 81, 255));
+        }
+        div.Question-space{
+          width: 100%;
+          height: 420px;
+          border: 1px solid black;
+          min-height: 100%;
+          background-size: 250px;
+        }
+        button.q-no{
+          font-size: 15px;
+          height: auto;
+        }
+        .button{
+          position: relative;
+          min-height: 100%;
+       }
+        .profile{
+          padding-left: 90px;
+          background-size: 80px;
+    }
+        .time{
+          padding-left: 90px;
+             }
+      }
